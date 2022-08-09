@@ -3,15 +3,32 @@
     <head>
         <meta charset="utf-8">
         <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="styles.css"/>
         
     </head>
     <body>
-<h1>Rock, Paper, Scissors!</h1>
-<h2>Choose your move....wisely!</h2>
-<button class="rock" onclick="">Rock</button>
-<input type="button" onclick="" value="Paper"/>
-<input type="button" onclick="" value="Scissors"/>
-<p id="choice"></p>
-<script src="game.js"></script>
+
+<div class="center">
+<div class="container">
+<div class="header">
+        <h1>Rock, Paper, Scissors!</h1>
+        <h2>Choose your move....wisely! First to 5 WINS!</h2>
+</div>
+    <h3 class="player">Player: </h3>
+    <h3 class="computer">Computer: </h3>
+    <h3 class="results">Results: </h3>
+    <div class="button-container">
+        <button class="choice option">Rock</br><img src="rock.jpeg" height="80" width="100"></button>
+        <button class="choice option">Paper</br><img src="paper.jpeg" alt="paper" height="80" width="100"></button>
+        <button class="choice option">Scissors</br><img src="scissors.png" alt="scissors" height="80" width="100"></button>
+    </div>
+    <h3 class="playerScore">Player Wins:</h3>
+    <h3 class="compScore">Computer Wins:</h3>
+    <h3 class="winner"></h3>
+    <button class="reset">PLAY AGAIN!</button>
+</div>
+</div>
+<script src="new-game.js"></script>
+<!-- <script src="game.js"></script> -->
     </body>
 </html>

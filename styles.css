@@ -1,0 +1,56 @@
+
+html,body {
+    background-color: lightseagreen;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+.header {
+    background-color: lightskyblue;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.container {
+    border: 5px solid rgb(91, 205, 243);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+.choice {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: larger;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.option:hover,
+.reset:hover {
+    border: 2px solid yellow;
+    cursor: pointer;
+}
+.winner {
+    font-size: x-large;
+    text-align: center;
+}
+.nohover:hover {
+    cursor: default;
+    border: none;
+    text-decoration: none;
+}
